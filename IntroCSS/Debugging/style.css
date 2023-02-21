@@ -3,11 +3,11 @@
 .box {
     width: 200px;
     height: 200px;
-    position absolute;
+    position: absolute;
 }
 
 #one {
-    background: red
+    background: red;
     top: 100px;
     left: 150px;
     zindex: 1;
