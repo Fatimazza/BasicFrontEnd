@@ -14,6 +14,9 @@
                 grid-template-rows: 20vh 60vh;
                 grid-template-columns: 20vh 30vh;
                 grid-gap: 15px;
+                grid-template-areas:
+                "top top"
+                "bottomLeft bottomRight";
                 justify-content: center;
                 border: 2px solid yellow;
             }
@@ -23,6 +26,15 @@
                 align-items: center;
                 justify-content: center;
                 border: 1px solid violet;
+            }
+            #b1 {
+                grid-area: top;
+            }
+            #b2 {
+                grid-area: bottomLeft;
+            }
+            #b3 {
+                grid-area: bottomRight;
             }
         </style>
     </head>
